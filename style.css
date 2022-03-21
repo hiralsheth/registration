@@ -1,0 +1,39 @@
+label, p{
+    width: 200px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+input, select, textarea{
+    width: 200px;
+}
+
+.education-boxes {
+    display: flex;
+}
+
+.education {
+    width: 190px;
+}
+.education-boxes label{
+    width: 160px;
+    text-align: left;
+}
+
+.education-boxes input{
+    width: 20px;
+}
+
+/*Required Style*/
+.required::after{
+    content: '*';
+    color: red;
+}
+
+.error-text{
+    color: red;
+    margin: 20px 0 5px 0;
+    font-size: 14px;
+    line-height: 16px;
+    display: none;
+}
